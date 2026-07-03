@@ -38,14 +38,22 @@ GPS location tracking feature is also included.
 ## Installation
 
 ```bash
-apt-get -y install php wget unzip
-git clone https://github.com/codingjunctioncybersec/CJCamPhish
+apt-get update
+
+apt-get -y install php wget unzip git
+
+git clone https://github.com/codingjunctioncybersec/CJCamPhish.git
+
 cd CJCamPhish
+
 bash camphish.sh
+```
 
+---
 
+## Follow Us
 
-Follow Us
-YouTube: youtube.com/@CodingJunctionOfficial
-Instagram: instagram.com/codingjunction.official
-GitHub: github.com/codingjunctioncybersec
+* **YouTube:** https://youtube.com/@CodingJunctionOfficial
+* **Instagram:** https://instagram.com/codingjunction.official
+* **GitHub:** https://github.com/codingjunctioncybersec
+
